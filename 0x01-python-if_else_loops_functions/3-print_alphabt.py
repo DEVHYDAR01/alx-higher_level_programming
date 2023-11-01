@@ -4,4 +4,4 @@ for soup in range(97, 122):
         continue
     if soup == 113:
         continue
-    print("{}".format(chr(soup)), end="")
+    print("{}".format(chr(soup)), end='')
