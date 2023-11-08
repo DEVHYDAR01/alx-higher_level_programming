@@ -14,7 +14,7 @@ void print_python_list_info(PyObject *p)
 {
 	int size;
 	int allocate;
-	int counter;
+	int iter;
 	PyObject *object;
 
 	size = Py_SIZE(p);
