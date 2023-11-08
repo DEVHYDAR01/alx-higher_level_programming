@@ -6,7 +6,7 @@
 #include <pytime.h>
 
 /**
- * print_python_list_info - The function that prints basic info about python objects
+ * print_python_list_info - The function prints basic info about python objects
  * @p: PyObject
  */
 
@@ -22,7 +22,6 @@ void print_python_list_info(PyObject *p)
 
 	printf("[*] Size of the Python List = %d\n", size);
 	printf("[*] Allocated = %d\n", allocate);
-
 	for (iter = 0; iter < size; iter++)
 	{
 		printf("Element %d: ", iter);
