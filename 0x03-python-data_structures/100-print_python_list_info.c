@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "lists.h"
+#include <time.h>
 #include <Python.h>
+#include <pytime.h>
 
 /**
  * print_python_list_info - The function that prints basic info about python objects
