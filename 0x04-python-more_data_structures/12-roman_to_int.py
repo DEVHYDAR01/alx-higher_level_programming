@@ -12,8 +12,8 @@ def roman_to_int(roman_string):
 
         if (lst != (len(roman_string) - 1) and
                 roman_d[roman_string[lst]] < roman_d[roman_string[lst + 1]]):
-                    numb = numb + roman_d[roman_string[lst]] * -1
+                    numb += roman_d[roman_string[lst]] * -1
 
         else:
-            numb = numb + roman_d[roman_string[lst]]
+            numb += roman_d[roman_string[lst]]
     return (numb)
